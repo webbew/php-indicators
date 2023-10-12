@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Doxadoxa\PhpIndicators\Exceptions;
+namespace Webbew\PhpIndicators\Exceptions;
 
 use Exception;
 

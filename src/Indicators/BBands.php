@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Doxadoxa\PhpIndicators\Indicators;
+namespace Webbew\PhpIndicators\Indicators;
 
-use Doxadoxa\PhpIndicators\ArrayIndicator;
+use Webbew\PhpIndicators\ArrayIndicator;
 
 /**
  * Class BBands
- * @package Doxadoxa\PhpIndicators\Indicators
+ * @package Webbew\PhpIndicators\Indicators
  */
 class BBands extends ArrayIndicator
 {
@@ -18,7 +18,7 @@ class BBands extends ArrayIndicator
      * @param float|null $nbDevUp
      * @param float|null $nbDevDn
      * @param int|null $mAType
-     * @throws \Doxadoxa\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
+     * @throws \Webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
      */
     public function __construct( ArrayIndicator $indicator, ?int $timePeriod = null, ?float $nbDevUp = null, ?float $nbDevDn = null, ?int $mAType = null )
     {

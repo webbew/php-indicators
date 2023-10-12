@@ -1,16 +1,16 @@
 <?php
 
-namespace Doxadoxa\PhpIndicators;
+namespace Webbew\PhpIndicators;
 
-use Doxadoxa\PhpIndicators\Exceptions\IndicatorNotFoundException;
-use Doxadoxa\PhpIndicators\Indicators\ATR;
-use Doxadoxa\PhpIndicators\Indicators\BBands;
-use Doxadoxa\PhpIndicators\Indicators\EMA;
-use Doxadoxa\PhpIndicators\Indicators\MACD;
-use Doxadoxa\PhpIndicators\Indicators\RMA;
-use Doxadoxa\PhpIndicators\Indicators\RSI;
-use Doxadoxa\PhpIndicators\Indicators\SMA;
-use Doxadoxa\PhpIndicators\Indicators\StochRSI;
+use Webbew\PhpIndicators\Exceptions\IndicatorNotFoundException;
+use Webbew\PhpIndicators\Indicators\ATR;
+use Webbew\PhpIndicators\Indicators\BBands;
+use Webbew\PhpIndicators\Indicators\EMA;
+use Webbew\PhpIndicators\Indicators\MACD;
+use Webbew\PhpIndicators\Indicators\RMA;
+use Webbew\PhpIndicators\Indicators\RSI;
+use Webbew\PhpIndicators\Indicators\SMA;
+use Webbew\PhpIndicators\Indicators\StochRSI;
 
 use function trader_atr;
 use function trader_bbands;
@@ -22,7 +22,7 @@ use function trader_stochrsi;
 
 /**
  * Class Indicators
- * @package Doxadoxa\PhpIndicators
+ * @package Webbew\PhpIndicators
  *
  * @method RSI rsi( ArrayIndicator $indicator, int $period = 2)
  * @method EMA ema( ArrayIndicator $indicator, int $period = 2)

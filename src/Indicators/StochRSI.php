@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Doxadoxa\PhpIndicators\Indicators;
+namespace Webbew\PhpIndicators\Indicators;
 
-use Doxadoxa\PhpIndicators\ArrayIndicator;
-use Doxadoxa\PhpIndicators\Exceptions\PeriodCantBeLessNumberException;
+use Webbew\PhpIndicators\ArrayIndicator;
+use Webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException;
 
 /**
  * Class StochRSI
- * @package Doxadoxa\PhpIndicators\Indicators
+ * @package Webbew\PhpIndicators\Indicators
  */
 class StochRSI extends ArrayIndicator
 {
