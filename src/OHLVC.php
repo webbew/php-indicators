@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Webbew\PhpIndicators;
+namespace webbew\PhpIndicators;
 
 use Exception;
 

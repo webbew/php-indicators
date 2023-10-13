@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Webbew\PhpIndicators\Exceptions;
+namespace webbew\PhpIndicators\Exceptions;
 
 use Exception;
 

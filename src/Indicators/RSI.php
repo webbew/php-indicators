@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Webbew\PhpIndicators\Indicators;
+namespace webbew\PhpIndicators\Indicators;
 
-use Webbew\PhpIndicators\ArrayIndicator;
+use webbew\PhpIndicators\ArrayIndicator;
 
 /**
  * Class RSI
- * @package Webbew\PhpIndicators\Indicators
+ * @package webbew\PhpIndicators\Indicators
  */
 class RSI extends ArrayIndicator
 {
@@ -15,7 +15,7 @@ class RSI extends ArrayIndicator
      * RSI constructor.
      * @param ArrayIndicator $indicator
      * @param int $period
-     * @throws \Webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
+     * @throws \webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
      */
     public function __construct( ArrayIndicator $indicator, int $period = 2 )
     {
