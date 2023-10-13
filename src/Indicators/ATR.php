@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace webbew\PhpIndicators\Indicators;
+namespace Webbew\PhpIndicators\Indicators;
 
-use webbew\PhpIndicators\ArrayIndicator;
+use Webbew\PhpIndicators\ArrayIndicator;
 
 class ATR extends ArrayIndicator
 {
@@ -14,7 +14,7 @@ class ATR extends ArrayIndicator
      * @param ArrayIndicator $low
      * @param ArrayIndicator $close
      * @param int $period
-     * @throws \webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
+     * @throws \Webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
      */
     public function __construct( ArrayIndicator $high, ArrayIndicator $low, ArrayIndicator $close, int $period = 14 )
     {

@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace webbew\PhpIndicators;
+namespace Webbew\PhpIndicators;
 
 use ArrayAccess;
-use webbew\PhpIndicators\Exceptions\CantCompareLessTwoElementsException;
-use webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException;
-use webbew\PhpIndicators\Exceptions\PeriodCantBeNegativeException;
+use Webbew\PhpIndicators\Exceptions\CantCompareLessTwoElementsException;
+use Webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException;
+use Webbew\PhpIndicators\Exceptions\PeriodCantBeNegativeException;
 use Exception;
 
 use function count;

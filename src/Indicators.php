@@ -1,16 +1,16 @@
 <?php
 
-namespace webbew\PhpIndicators;
+namespace Webbew\PhpIndicators;
 
-use webbew\PhpIndicators\Exceptions\IndicatorNotFoundException;
-use webbew\PhpIndicators\Indicators\ATR;
-use webbew\PhpIndicators\Indicators\BBands;
-use webbew\PhpIndicators\Indicators\EMA;
-use webbew\PhpIndicators\Indicators\MACD;
-use webbew\PhpIndicators\Indicators\RMA;
-use webbew\PhpIndicators\Indicators\RSI;
-use webbew\PhpIndicators\Indicators\SMA;
-use webbew\PhpIndicators\Indicators\StochRSI;
+use Webbew\PhpIndicators\Exceptions\IndicatorNotFoundException;
+use Webbew\PhpIndicators\Indicators\ATR;
+use Webbew\PhpIndicators\Indicators\BBands;
+use Webbew\PhpIndicators\Indicators\EMA;
+use Webbew\PhpIndicators\Indicators\MACD;
+use Webbew\PhpIndicators\Indicators\RMA;
+use Webbew\PhpIndicators\Indicators\RSI;
+use Webbew\PhpIndicators\Indicators\SMA;
+use Webbew\PhpIndicators\Indicators\StochRSI;
 
 use function trader_atr;
 use function trader_bbands;
@@ -22,7 +22,7 @@ use function trader_stochrsi;
 
 /**
  * Class Indicators
- * @package webbew\PhpIndicators
+ * @package Webbew\PhpIndicators
  *
  * @method RSI rsi( ArrayIndicator $indicator, int $period = 2)
  * @method EMA ema( ArrayIndicator $indicator, int $period = 2)

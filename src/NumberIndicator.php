@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace webbew\PhpIndicators;
+namespace Webbew\PhpIndicators;
 
 class NumberIndicator implements Indicator
 {

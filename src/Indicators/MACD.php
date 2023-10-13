@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace webbew\PhpIndicators\Indicators;
+namespace Webbew\PhpIndicators\Indicators;
 
-use webbew\PhpIndicators\ArrayIndicator;
+use Webbew\PhpIndicators\ArrayIndicator;
 
 /**
  * Class MACD
- * @package webbew\PhpIndicators\Indicators
+ * @package Webbew\PhpIndicators\Indicators
  */
 class MACD extends ArrayIndicator
 {
@@ -17,7 +17,7 @@ class MACD extends ArrayIndicator
      * @param int|null $fastPeriod
      * @param int|null $slowPeriod
      * @param int|null $signalPeriod
-     * @throws \webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
+     * @throws \Webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
      */
     public function __construct( ArrayIndicator $indicator, ?int $fastPeriod = null, ?int $slowPeriod = null, ?int $signalPeriod = null )
     {

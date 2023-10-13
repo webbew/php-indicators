@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace webbew\PhpIndicators\Indicators;
+namespace Webbew\PhpIndicators\Indicators;
 
-use webbew\PhpIndicators\ArrayIndicator;
+use Webbew\PhpIndicators\ArrayIndicator;
 
 /**
  * Class EMA
- * @package webbew\PhpIndicators\Indicators
+ * @package Webbew\PhpIndicators\Indicators
  */
 class EMA extends ArrayIndicator
 {
@@ -15,7 +15,7 @@ class EMA extends ArrayIndicator
      * EMA constructor.
      * @param ArrayIndicator $indicator
      * @param int $period
-     * @throws \webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
+     * @throws \Webbew\PhpIndicators\Exceptions\PeriodCantBeLessNumberException
      */
     public function __construct( ArrayIndicator $indicator, int $period = 2 )
     {

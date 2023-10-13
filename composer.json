@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "webbew\\PhpIndicators\\": "src/"
+            "Webbew\\PhpIndicators\\": "src/"
         }
     },
-    "version": "1.2"
+    "version": "1.3"
 }
